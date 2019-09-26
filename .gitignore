@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.git/
+.idea/
+yarn.lock
+node_modules/
+/nbproject/private/
+/build/
