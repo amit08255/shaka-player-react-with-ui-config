@@ -114,3 +114,7 @@ class VideoPlayer extends React.PureComponent{
 
 export default VideoPlayer;
 ```
+
+**Note -** For more details on shaka player, follow the documentation provided -
+https://shaka-player-demo.appspot.com/docs/api/index.html
+Remember that the documentation refer to JavaScript implementation of shaka player, implementation method may differ for ReactJS but APIs will be same.
