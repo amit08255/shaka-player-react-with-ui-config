@@ -1,6 +1,6 @@
 ## Basic implementation of Shaka Player in ReactJS
 
-This is simple ReactJS app with basic implementation os shaka player. In this app, we are just loading a simple video in shaka player in our app.
+This is simple ReactJS app with basic implementation of shaka player. In this app, we are just loading a simple video in shaka player in our app.
 
 ## Installing app
 

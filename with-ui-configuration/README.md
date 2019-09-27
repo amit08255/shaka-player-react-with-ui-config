@@ -1,6 +1,6 @@
-## Basic implementation of Shaka Player in ReactJS
+## Implementation of Shaka Player in ReactJS with UI configuration
 
-This is simple ReactJS app with basic implementation os shaka player. In this app, we are just loading a simple video in shaka player in our app.
+This is simple ReactJS app with implementation of shaka player with UI configuration. In this app, we are using shaka player and see how we can configure shaka player UI the easy way.
 
 ## Installing app
 
@@ -135,6 +135,44 @@ class VideoPlayer extends React.PureComponent{
 
 export default VideoPlayer;
 ```
+
+## More about video player control panel customization
+
+The following elements can be added to the UI bar using this configuration value:
+
+* **time_and_duration:** adds an element tracking and displaying current progress of the presentation and the full presentation duration in the "0:10 / 1:00" form where "0:10" (ten seconds) is the number of seconds passed from the start of the presentation and "1:00" (one minute) is the presentation duration.
+
+* **play_pause:** adds a button that plays/pauses the video on click.
+
+* **mute:** adds a button that mutes/unmutes the video on click.
+
+* **volume:** adds a volume slider.
+
+* **fullscreen:** adds a button that toggles full screen mode on click.
+
+* **overflow_menu:** adds a button that opens an overflow menu with additional settings buttons. It's content is also configurable.
+
+* **rewind:** adds a button that rewinds the presentation on click; that is, it starts playing the presentation backwards.
+
+* **fast_forward:** adds a button that fast forwards the presentation on click; that is, it starts playing the presentation at an increased speed
+
+* **spacer:** adds a chunk of empty space between the adjacent elements.
+
+## More on configuring overflow menu of shaka player
+
+Similarly, the 'overflowMenuButtons' configuration option can be used to control the contents of the overflow menu. The following buttons can be added to the overflow menu:
+
+* **captions:** adds a button that controls the current text track selection (including turning it off). The button is visible only if the content has at least one text track.
+
+* **cast:** adds a button that opens a Chromecast dialog. The button is visible only if there is at least one Chromecast device on the same network available for casting.
+
+* **quality:** adds a button that controls enabling/disabling of abr and video resolution selection.
+
+* **language:** adds a button that controls audio language selection.
+
+* **picture_in_picture:** adds a button that enables/disables picture-in-picture mode on browsers that support it. Button is invisible on other browsers.
+
+
 
 **Note -** For more details on shaka player, follow the documentation provided -
 https://shaka-player-demo.appspot.com/docs/api/index.html
