@@ -1,0 +1,34 @@
+{
+  "name": "shaka-player-react-with-ui-config",
+  "version": "1.0.0",
+  "description": "Shaka player implementation in ReactJS. This repository contains basic shaka player implementation and also implementation of shaka player in ReactJS with custom UI configuration.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit08255/shaka-player-react-with-ui-config.git"
+  },
+  "keywords": [
+    "Shaka",
+    "player",
+    "ReactJS"
+  ],
+  "author": "Amit Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amit08255/shaka-player-react-with-ui-config/issues"
+  },
+  "homepage": "https://github.com/amit08255/shaka-player-react-with-ui-config#readme",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "0.9.5",
+    "shaka-player": "^2.5.5"
+  },
+  "devDependencies": {}
+}
