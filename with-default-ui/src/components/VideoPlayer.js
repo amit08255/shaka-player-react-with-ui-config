@@ -50,17 +50,9 @@ class VideoPlayer extends React.PureComponent{
 
 		//Initialize shaka player
 		var player = new shaka.Player(video);
-
-		//Setting UI configuration JSON object
-		const uiConfig = {};
-
-		//Configuring elements to be displayed on video player control panel
-		  uiConfig['controlPanelElements'] = ['mute', 'volume', 'time_and_duration', 'fullscreen', 'overflow_menu', ];
 		  
 		//Setting up shaka player UI
       	const ui = new shaka.ui.Overlay(player, videoContainer, video);
-
-        ui.configure(uiConfig); //configure UI
       	ui.getControls();
 
 		// Listen for error events.
