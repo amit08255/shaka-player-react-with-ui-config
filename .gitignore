@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 .git/
 .idea/
+.next/
 yarn.lock
 node_modules/
 /nbproject/private/
